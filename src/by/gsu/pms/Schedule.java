@@ -9,6 +9,11 @@ public class Schedule{
     private String dayOfW;
     private String classTime;
 
+    public String gettName() {
+        return tName;
+    }
+
+
     public Schedule(String[] str) {
         this.name = str[0];
         this.tName = str[1];
@@ -19,6 +24,7 @@ public class Schedule{
         this.classTime = str[6];
     }
 
+    //idc
     public Schedule(String name, String tName, int curse, int lecture, int practice, String dayOfW, String classTime) {
         this.name = name;
         this.tName = tName;
@@ -28,7 +34,6 @@ public class Schedule{
         this.dayOfW = dayOfW;
         this.classTime = classTime;
     }
-
 
     @Override
     public String toString() {
