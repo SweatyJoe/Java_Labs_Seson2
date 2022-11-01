@@ -1,4 +1,0 @@
-Math Grishenko 4 10 40 monday 10.40
-Geography Podalov 1 2 0 sunday 9.00
-Physic Samofalow 4 2 1 friday 12.05
-Astrology Sokolov 2 1 0 wednesday 14.20

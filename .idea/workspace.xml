@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23e855d8-c171-44f4-9372-0c0b0310861e" name="Changes" comment="" />
+    <list default="true" id="7b941563-9b34-4c7a-a853-7ea19dbe861a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,46 +14,60 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17.0.2/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FMehCx4V6FcBrUHRtAEvB0MaWR" />
+  <component name="ProjectId" id="2FyrWEIPbR7yhXoDjh278b9i9iv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Андрей/Downloads/Waitnotify",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="lab6_collections1" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lab7_threads_V14" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Runner" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="lab7_threads_V14" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23e855d8-c171-44f4-9372-0c0b0310861e" name="Changes" comment="" />
-      <created>1664306498390</created>
+      <changelist id="7b941563-9b34-4c7a-a853-7ea19dbe861a" name="Changes" comment="" />
+      <created>1665475197048</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664306498390</updated>
-      <workItem from="1664306499492" duration="2470000" />
-      <workItem from="1664309036965" duration="2468000" />
-      <workItem from="1664392906961" duration="7001000" />
+      <updated>1665475197048</updated>
+      <workItem from="1665475198245" duration="3010000" />
+      <workItem from="1665478222333" duration="6945000" />
+      <workItem from="1665489699039" duration="2594000" />
+      <workItem from="1665555149357" duration="6720000" />
+      <workItem from="1665642685559" duration="3442000" />
+      <workItem from="1665656931031" duration="2842000" />
+      <workItem from="1665735335215" duration="3339000" />
+      <workItem from="1665986860224" duration="1746000" />
+      <workItem from="1666161506436" duration="2476000" />
+      <workItem from="1666165940454" duration="3538000" />
+      <workItem from="1667193039272" duration="2270000" />
     </task>
     <servers />
   </component>

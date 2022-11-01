@@ -1,0 +1,12 @@
+
+g	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(à‹ÀŸûÿÿÿÿ8‰×©çÂ0
+t
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(…ßà„ûÿÿÿÿ
+Ž
+java:S11306"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(à‹ÀŸûÿÿÿÿ8™Ù©çÂ0
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8£Ù©çÂ0
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8¥÷©çÂ0
+S
+java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8¤Ù©çÂ0
