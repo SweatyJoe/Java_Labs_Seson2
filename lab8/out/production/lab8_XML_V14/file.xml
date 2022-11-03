@@ -1,0 +1,1331 @@
+<branches>
+    <branch name="Головной банк">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №501"/>
+    <branch name="ЦБУ №403">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №502">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №702"/>
+    <branch name="ЦБУ №706">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №702">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №503">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №506">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №703">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №705">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ №504"/>
+    <branch name="Приходно-расходные кассы (г. Минск)">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="ЦБУ 701-705 (Минск)">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="Минская областная дирекция">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="Брестская областная дирекция">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="Витебская областная дирекция">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="Гродненская областная дирекция">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="Могилевская областная дирекция">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+    <branch name="Гомельская областная дирекция">
+        <rate currency="usd" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.45</buy>
+                <sell>2.495</sell>
+            </range>
+        </rate>
+        <rate currency="eur" Units="1">
+            <range min-amount="0" max-amount="99">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="100" max-amount="9999">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+            <range min-amount="10000" max-amount="999999999999998">
+                <buy>2.42</buy>
+                <sell>2.485</sell>
+            </range>
+        </rate>
+        <rate currency="rub" Units="100">
+            <range min-amount="0" max-amount="9999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="10000" max-amount="599999">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+            <range min-amount="600000" max-amount="999999999999998">
+                <buy>3</buy>
+                <sell>4.07</sell>
+            </range>
+        </rate>
+        <rate currency="uah" Units="100">
+            <buy>0.25</buy>
+            <sell>6.73</sell>
+        </rate>
+        <rate currency="gbp" Units="1">
+            <buy>2.05</buy>
+            <sell>2.9</sell>
+        </rate>
+        <rate currency="chf" Units="1">
+            <buy>2.05</buy>
+            <sell>2.53</sell>
+        </rate>
+        <rate currency="pln" Units="10">
+            <buy>4.3</buy>
+            <sell>5.23</sell>
+        </rate>
+        <rate currency="cny" Units="10">
+            <buy>3.36</buy>
+            <sell>4</sell>
+        </rate>
+        <rate currency="eur_rub">59.5</rate>
+        <rate currency="rub_eur">80.1</rate>
+        <rate currency="usd_rub">60.3</rate>
+        <rate currency="rub_usd">80.6</rate>
+        <rate currency="usd_uah">36.5</rate>
+        <rate currency="uah_usd">990</rate>
+        <rate currency="usd_pln">4.69</rate>
+        <rate currency="pln_usd">5.8</rate>
+        <rate currency="eur_usd">0.97</rate>
+        <rate currency="usd_eur">1.01</rate>
+        <rate currency="gbp_usd">0.83</rate>
+        <rate currency="usd_gbp">1.18</rate>
+        <rate currency="usd_chf">0.97</rate>
+        <rate currency="chf_usd">1.21</rate>
+    </branch>
+</branches>
