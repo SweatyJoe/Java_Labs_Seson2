@@ -23,14 +23,25 @@ public class DOMExample {
         NodeList bankElements = doc.getDocumentElement().getElementsByTagName("branch");
         try {
             for (int i = 0; i < bankElements.getLength(); i++) {
-                Node bank = bankElements.item(i);
-                NamedNodeMap attributes = bank.getAttributes();
-                System.out.println(attributes.getNamedItem("name").getNodeValue());
+                Node bankBranch = bankElements.item(i);
+                NamedNodeMap attributesBranch = bankBranch.getAttributes();
+                System.out.println("\nName:" + attributesBranch.getNamedItem("name").getNodeValue());
                 NodeList bankElementsNew = doc.getDocumentElement().getElementsByTagName("rate");
-                for(int j = 0; j< bankElementsNew.getLength(); j++){
+
+                for (int j = 0; j < bankElementsNew.getLength(); j++) {
                     Node bankRate = bankElementsNew.item(j);
                     NamedNodeMap attributesRate = bankRate.getAttributes();
-                    System.out.println(attributesRate.getNamedItem("currency").getNodeValue());
+                    System.out.print("\tCur: " + attributesRate.getNamedItem("currency").getNodeValue() + "Un: " + attributesRate.getNamedItem("Units").getNodeValue());
+                    NodeList bankElementsRange = doc.getDocumentElement().getElementsByTagName("range");
+
+                    for (int k = 0; k < bankElementsRange.getLength(); k++) {
+                        Node bankRange = bankElementsRange.item(k);
+                        NamedNodeMap attributesRange = bankRange.getAttributes();
+                        System.out.println("\tMin\\max: [" + attributesRange.getNamedItem("min-amount").getNodeValue() + "][" + attributesRange.getNamedItem("max-amount").getNodeValue() + "]");
+                        NodeList buy = doc.getDocumentElement().getElementsByTagName("buy");
+                        NodeList sell = doc.getDocumentElement().getElementsByTagName("sell");
+                        System.out.println("\tbuy\\sell :[" + buy.item(k).getTextContent() + "][" + sell.item(k).getTextContent() + "]");
+                    }
                 }
                 /*banks.add(new Bank(attributes.getNamedItem("name").getNodeValue(),
                         new Currency(attributes.getNamedItem("currency").getNodeValue(),
@@ -39,8 +50,9 @@ public class DOMExample {
                                         BigInteger.valueOf(Long.parseLong(attributes.getNamedItem("max-amount").getNodeValue())),
                                         Float.parseFloat(attributes.getNamedItem("buy").getNodeValue()),
                                         Float.parseFloat(attributes.getNamedItem("sell").getNodeValue())))));*/
+
             }
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         for (var s : banks) {
