@@ -1,7 +1,4 @@
-import org.w3c.dom.Document;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -9,6 +6,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
+import java.math.BigInteger;
 import java.util.ArrayList;
 
 public class DOMExample {
@@ -17,89 +15,58 @@ public class DOMExample {
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-
         Document doc = builder.parse(new File("src\\file.xml"));
         NodeList bankElements = doc.getDocumentElement().getElementsByTagName("branch"); //берём все branch
         try {
             for (int i = 0; i < bankElements.getLength(); i++) {  //перебираем
                 Node bankBranch = bankElements.item(i);
-                //NamedNodeMap attributesBranch = bankBranch.getAttributes();
-                System.out.println("\nName:" + bankBranch.getAttributes().getNamedItem("name").getNodeValue());
+                String branchName = bankBranch.getAttributes().getNamedItem("name").getNodeValue(); //branch
+                System.out.println("\nName:" + branchName);
                 NodeList bankElementsNew = bankBranch.getChildNodes();
                 for (int j = 0; j < bankElementsNew.getLength(); j++) {
                     Node nodeRate = bankElementsNew.item(j);
                     try {
-                        System.out.println("Currency: " + nodeRate.getAttributes().getNamedItem("currency").getNodeValue() +
-                                " Units: " + nodeRate.getAttributes().getNamedItem("Units").getNodeValue());
-
-                        while(nodeRate.hasChildNodes()){
-                            NodeList nodeRange = nodeRate.getChildNodes();
-                            try {
-                                for (int k = 1; k < nodeRange.getLength(); k++) {
+                        String rateCurrency = nodeRate.getAttributes().getNamedItem("currency").getNodeValue();
+                        int rateUnits = Integer.parseInt(nodeRate.getAttributes().getNamedItem("Units").getNodeValue());
+                        System.out.println("Currency: " + rateCurrency + " Units: " + rateUnits);
+                        NodeList nodeRange = nodeRate.getChildNodes();
+                        try {
+                            for (int k = 0; k < nodeRange.getLength(); k++) {
+                                if (nodeRange.item(k) instanceof Element) {
                                     Node node = nodeRange.item(k);
-                                    System.out.println("\tmin: " + node.getAttributes().getNamedItem("min-amount").getNodeValue().strip() +
-                                            " max: " + node.getAttributes().getNamedItem("max-amount").getNodeValue().strip());
+                                    int rangeMin = Integer.parseInt(node.getAttributes().getNamedItem("min-amount").getNodeValue());
+                                    BigInteger rangeMax = BigInteger.valueOf(Long.parseLong(node.getAttributes().getNamedItem("max-amount").getNodeValue()));
+                                    System.out.println("\tmin: " + rangeMin +
+                                            " max: " + rangeMax);
+                                    NodeList nextNodeList = node.getChildNodes();
+                                    if (nextNodeList.item(1) instanceof Element || nextNodeList.item(3) instanceof Element) {
+                                        banks.add(new Bank(branchName, new Currency(rateCurrency, rateUnits, new Range(rangeMin, rangeMax, Float.parseFloat(nextNodeList.item(1).getTextContent()), Float.parseFloat(nextNodeList.item(1).getTextContent())))));
+                                        System.out.println("\t\tbuy " + nextNodeList.item(1).getNodeName() + " " +
+                                                " sell " + nextNodeList.item(1).getNodeName());
+                                    }
+
                                 }
-
-                            } catch (NullPointerException e) {
-                                continue;
+                            }
+                        } catch (NullPointerException e) {
+                            try {
+                                for (int k = 0; k < nodeRange.getLength(); k++) {
+                                    if (nodeRange.item(k) instanceof Element) {
+                                        Node node = nodeRange.item(k);
+                                        System.out.println("\t\t" + node.getNodeName() + " " + node.getTextContent());
+                                    }
+                                }
+                            } catch (Exception e1) {
+                                System.out.println("no");
                             }
                         }
-
                     } catch (NullPointerException e) {
-                        continue;
+                        if (bankElementsNew.item(j) instanceof Element) {
+                            String name = nodeRate.getAttributes().getNamedItem("currency").getNodeValue();
+                            banks.add(new Bank(branchName, new Currency(name, new Range(Float.parseFloat(nodeRate.getTextContent())))));
+                            System.out.println("Currency " + name + "\n\t" + nodeRate.getTextContent());
+                        }
                     }
-
-
                 }
-
-                //Node bb = bankElementsNew;
-                //System.out.println(bb.getLocalName().toString());
-                /*if (bb != null) {
-                    //NodeList bankElementsRange = doc.getDocumentElement().getElementsByTagName("range");
-                    NodeList bankElementsRange = bb.item(i).getChildNodes();
-                    if (bankElementsRange != null) {
-                        for (int j = 0; j < bankElementsRange.getLength(); j++) {
-                            Node bRange = bankElementsRange.item(j);
-                            NamedNodeMap mapRange = bRange.getAttributes();
-                            NodeList nodeList = bRange.getChildNodes();
-                            System.out.println("\tmin\\max[" + nodeList.item(0).getTextContent() + nodeList.item(1).getTextContent() + "]\n" +
-                                    "\tMin\\max: [" + mapRange.getNamedItem("min-amount").getNodeValue() + "][" + mapRange.getNamedItem("max-amount").getNodeValue() + "]");
-                        }
-                    }
-                }*/
-
-               /* for (int j = 0; j < bankElementsNew.getLength(); j++) {
-                    Node bankRate = bankElementsNew.item(j);
-                    NamedNodeMap attributesRate = bankRate.getAttributes();
-                    try {
-                        if (attributesRate.getNamedItem("currency").getTextContent().length() < 4) {
-                            System.out.print("\tCur: " + attributesRate.getNamedItem("currency").getNodeValue() + "Un: " + attributesRate.getNamedItem("Units").getNodeValue());
-                            NodeList bankElementsRange = doc.getDocumentElement().getElementsByTagName("range");
-
-                            for (int k = 0; k < bankElementsRange.getLength(); k++) {
-                                Node bankRange = bankElementsRange.item(k);
-                                NamedNodeMap attributesRange = bankRange.getAttributes();
-                                System.out.println("\tMin\\max: [" + attributesRange.getNamedItem("min-amount").getNodeValue() + "][" + attributesRange.getNamedItem("max-amount").getNodeValue() + "]");
-                                NodeList buy = doc.getDocumentElement().getElementsByTagName("buy");
-                                NodeList sell = doc.getDocumentElement().getElementsByTagName("sell");
-                                System.out.println("\t\tbuy\\sell :[" + buy.item(k).getTextContent() + "][" + sell.item(k).getTextContent() + "]");
-                            }
-                        } else {
-                            System.out.println(attributesRate.getNamedItem("currency").getTextContent());
-                        }
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }*/
-                /*banks.add(new Bank(attributes.getNamedItem("name").getNodeValue(),
-                        new Currency(attributes.getNamedItem("currency").getNodeValue(),
-                                Integer.parseInt(attributes.getNamedItem("Units").getNodeValue()),
-                                new Range(Integer.parseInt(attributes.getNamedItem("min-amount").getNodeValue()),
-                                        BigInteger.valueOf(Long.parseLong(attributes.getNamedItem("max-amount").getNodeValue())),
-                                        Float.parseFloat(attributes.getNamedItem("buy").getNodeValue()),
-                                        Float.parseFloat(attributes.getNamedItem("sell").getNodeValue())))));*/
-
             }
         } catch (Exception e) {
             e.printStackTrace();

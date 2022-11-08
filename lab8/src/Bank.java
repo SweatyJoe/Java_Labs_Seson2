@@ -28,6 +28,10 @@ class Currency {
         this.units = units;
         this.range = range;
     }
+    public Currency(String name, Range range){
+        this.name = name;
+        this.range = range;
+    }
 
     @Override
     public String toString() {
@@ -50,6 +54,10 @@ class Range {
         this.maxAmount = maxAmount;
         this.buy = buy;
         this.sell = sell;
+    }
+
+    public Range(float buy){
+        this.buy = buy;
     }
 
     @Override
