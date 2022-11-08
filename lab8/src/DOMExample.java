@@ -32,17 +32,20 @@ public class DOMExample {
                         System.out.println("Currency: " + nodeRate.getAttributes().getNamedItem("currency").getNodeValue() +
                                 " Units: " + nodeRate.getAttributes().getNamedItem("Units").getNodeValue());
 
-                        NodeList nodeRange = nodeRate.getChildNodes();
-                        try {
-                            for (int k = 0; k < nodeRange.getLength(); k++) {
-                                Node node = nodeRange.item(k);
-                                System.out.println("\tmin: " + node.getAttributes().getNamedItem("min-amount").getNodeValue() +
-                                        " max: " + node.getAttributes().getNamedItem("max-amount").getNodeValue());
-                            }
+                        while(nodeRate.hasChildNodes()){
+                            NodeList nodeRange = nodeRate.getChildNodes();
+                            try {
+                                for (int k = 1; k < nodeRange.getLength(); k++) {
+                                    Node node = nodeRange.item(k);
+                                    System.out.println("\tmin: " + node.getAttributes().getNamedItem("min-amount").getNodeValue().strip() +
+                                            " max: " + node.getAttributes().getNamedItem("max-amount").getNodeValue().strip());
+                                }
 
-                        } catch (NullPointerException e) {
-                            continue;
+                            } catch (NullPointerException e) {
+                                continue;
+                            }
                         }
+
                     } catch (NullPointerException e) {
                         continue;
                     }
